@@ -1,5 +1,9 @@
 server:
   port: 8080
+management:
+  server:
+    port: 9001
+    address: 127.0.0.1
 spring:
   data:
     mongodb:
