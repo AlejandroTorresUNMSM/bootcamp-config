@@ -11,3 +11,10 @@ spring:
     mongodb:
       url: mongodb://localhost:27017
       database: client_bd
+eureka:
+  client:
+    service-url:
+      defaultZone: http:/localhost:8761/eureka
+  instance:
+    leaseRenewalIntervalInSeconds: 30
+    leaseExpirationDurationInSeconds: 90
