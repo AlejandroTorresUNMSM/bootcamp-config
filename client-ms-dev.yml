@@ -5,6 +5,8 @@ management:
     port: 9001
     address: 127.0.0.1
 spring:
+  application:
+    name: client-ms
   data:
     mongodb:
       url: mongodb://localhost:27017
